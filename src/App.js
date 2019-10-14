@@ -6,28 +6,29 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
-import Navigation from '../Components/navigation';
-import MainSection from '../Components/mainsection';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navigation from './Components/navigation';
+import MainSection from './Components/mainsection';
+import mainsection from './Components/mainsection';
 
 
-export default function App() {
+export default function App() {
+
+
   return (
     <Router>
-
-      <Navigation />
-      <MainSection />
-
+      <React.Fragment>
+        <Navigation />
+        <MainSection />
 
 
         <Switch>
-          <Link>
-            <Route path="/about" />
-            <Route path="/users" />
+            <Route path="/mainsection" component={mainsection} />
             <Route path="/" />
-          </Link>
+            <Route path="/" />
         </Switch>
+      </React.Fragment>
     </Router>
-  );
-}
+  
+)};
