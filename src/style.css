@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+
 .background {
-  background: url('./img/hero.jpg');
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url('./img/hero.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.background h1 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+.btn {
+  margin-right: 10px;
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  transition: background-color .2s, border .2s;
+}
+
+.btn-ghost{
+  background-color: transparent;
+  color: #e67e22;
+}
+
+.btn:hover {
+  background-color: #bd702d;
+  border: 1px solid #bd702d;
+}
+.list-group-item{
+  text-decoration: none;
+  border: none;
+  background: transparent;
+}
+
+.list-group-item a{
+  color:#ffffff;
+  transition: border 0.2;
+  margin: 2px;
+}
+
+.list-group-item a:hover{
+  border-bottom: #bd702d;
 }
