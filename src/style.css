@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
+
+.main-nav{
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+  font-weight: bold;
+}
 
 .background {
   height: 100vh;
@@ -11,10 +19,12 @@
 
 .background h1 {
   text-transform: uppercase;
+  font-weight: 300;
   color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   word-spacing: 4px;
   letter-spacing: 1px;
+  font-size: 300%;
 }
 
 .btn {
@@ -22,29 +32,39 @@
   background-color: #e67e22;
   border: 1px solid #e67e22;
   transition: background-color .2s, border .2s;
+  font-size: 1.2em;
+  font-weight: 300;
+  padding: 10px 30px;
 }
 
-.btn-ghost{
+.btn.btn-ghost{
   background-color: transparent;
   color: #e67e22;
+  font-weight: 300;
 }
 
 .btn:hover {
   background-color: #bd702d;
   border: 1px solid #bd702d;
+  color: #ffffff;
 }
 .list-group-item{
+  padding: 20px;
   text-decoration: none;
   border: none;
   background: transparent;
 }
 
 .list-group-item a{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
   color:#ffffff;
-  transition: border 0.2;
-  margin: 2px;
+  padding: 4px;
+  text-decoration: none;
+  transition: border-bottom 0.1s;
 }
 
 .list-group-item a:hover{
-  border-bottom: #bd702d;
+  border-bottom: 2px solid #bd702d;
 }

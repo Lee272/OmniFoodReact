@@ -10,14 +10,13 @@ import mainsection from './Components/MainSection';
 
 export default function App() {
   return (
-    <Router>
-      <React.Fragment>
-        <MainSection />
-        <Switch>
-            <Route path="/mainsection" component={mainsection} />
-            <Route path="/" />
-            <Route path="/" />
-        </Switch>
-      </React.Fragment>
-    </Router>
+      <MainSection />
+//     <Router>
+//       <React.Fragment>
+//         <MainSection />
+//         <Switch>
+//             <Route path="/MainSection" component={MainSection} />
+//         </Switch>
+//       </React.Fragment>
+//     </Router>
 )};
