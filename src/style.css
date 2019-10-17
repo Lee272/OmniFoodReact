@@ -79,7 +79,7 @@ h1{ text-transform: uppercase; }
 .list-group-item a:hover{
   border-bottom: 2px solid #bd702d;
 }
-
+/* Underline Trick */
 .underline::after{
   display: block;
     height: 2px;
@@ -87,4 +87,23 @@ h1{ text-transform: uppercase; }
     content: " ";
     width: 100px;
     margin: 30px auto 0;
+}
+
+/* Food Delivery Section */
+.FoodDelivery{
+  height: 75vh;
+}
+
+.card {
+  border: none;
+  font-weight: 300;
+  /* font-size: 20px; */
+}
+/* Food Gallery */
+div.card{
+  overflow: hidden;
+}
+
+img.Image{
+  color: black;
 }
