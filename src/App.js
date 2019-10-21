@@ -18,9 +18,8 @@ export default function App() {
     </React.Fragment>
 //     <Router>
 //       <React.Fragment>
-//         <MainSection />
 //         <Switch>
-//             <Route path="/MainSection" component={MainSection} />
+//             <Route exact path="/" component={MainSection} />
 //         </Switch>
 //       </React.Fragment>
 //     </Router>
