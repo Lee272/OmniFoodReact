@@ -11,6 +11,8 @@ h1{ text-transform: uppercase; }
   height: 100vh;
 }
 
+section{ padding: 40px 0; }
+
 
 .main-nav{
   position: absolute;
@@ -80,7 +82,7 @@ h1{ text-transform: uppercase; }
   border-bottom: 2px solid #bd702d;
 }
 /* Underline Trick */
-.underline::after{
+.P-underline::after{
   display: block;
     height: 2px;
     background-color: #e67e22;
@@ -97,13 +99,27 @@ h1{ text-transform: uppercase; }
 .card {
   border: none;
   font-weight: 300;
-  /* font-size: 20px; */
 }
 /* Food Gallery */
-div.card{
-  overflow: hidden;
+div.card.gallery{
+  transition: transform 2s;
+}
+div.card.gallery:hover{
+  transform: scale(1.2);
+}
+.oneNumber{
+  display: inline-block;
+  color: #e67e22;
+  font-weight: bold;
+  border: solid 2px #e67e22;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  padding: 5px;
+  font-size: 150%;
 }
 
-img.Image{
-  color: black;
+.HowItWorks{
+  background: #F4F4F4;
 }
