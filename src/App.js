@@ -14,11 +14,11 @@ import Cities from './Components/Cities';
 export default function App() {
   return (
     <React.Fragment>
-      {/* <MainSection />
-      <FoodDelivery />
-      <FoodGallery />
-      <TailWindCSS /> */}
-      <Cities />
+      {/* <MainSection /> */}
+      {/* <FoodDelivery /> */}
+      {/* <FoodGallery /> */}
+      {/* <TailWindCSS /> */}
+      <Cities Cities={["Lisbon", "Berlin", "London"]} />
     </React.Fragment>
 //     <Router>
 //       <React.Fragment>
