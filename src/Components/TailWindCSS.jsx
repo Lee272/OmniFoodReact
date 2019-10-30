@@ -11,7 +11,7 @@ export default class TailWindCSS extends React.Component{
   render(){
     return(
 
-      <section>
+      <section className="bg-gray-100">
         <div>
         {/* HEADER */}
           <div>

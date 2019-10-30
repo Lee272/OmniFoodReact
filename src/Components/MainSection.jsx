@@ -9,7 +9,7 @@ export default class mainsection extends React.Component {
     return (
       <React.Fragment>
       <Navigation />
-        <Jumbotron fluid={true} className="background" id="StartPoint">
+        <Jumbotron fluid={true} className="bg background" id="StartPoint">
           <Container className="d-flex h-100 align-items-center">
           <Row className="align-middle">
             <Col md={{ span: 12, offset: 1 }}>

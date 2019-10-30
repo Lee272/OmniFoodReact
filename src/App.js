@@ -10,15 +10,19 @@ import FoodDelivery from './Components/FoodDelivery';
 import FoodGallery from './Components/FoodGallery';
 import TailWindCSS from './Components/TailWindCSS';
 import Cities from './Components/Cities';
+import Testimonials from './Components/Testimonials';
+import OrderMenu from './Components/OrderMenu';
 
 export default function App() {
   return (
     <React.Fragment>
-      {/* <MainSection /> */}
-      {/* <FoodDelivery /> */}
-      {/* <FoodGallery /> */}
+      <MainSection />
+      <FoodDelivery />
+      <FoodGallery />
       <TailWindCSS />
-      {/* <Cities Cities={["Lisbon", "Berlin", "London", "San Francisco"]} /> */}
+      <Cities Cities={["Lisbon", "Berlin", "London", "San Francisco"]} />
+      <Testimonials />
+      <OrderMenu />
     </React.Fragment>
 //     <Router>
 //       <React.Fragment>
