@@ -60,7 +60,7 @@ export default class OrderMenu extends React.Component {
               </ol>
             </div>
             {/* CARD BOTTOM */}
-            <div className="text-center bg-white md:flex md:items-center md:w-full">
+            <div className="text-center bg-white md:flex md:items-center md:w-full lg:block">
               <button className="w-40 h-12 m-2 p-2 text-orange-600 border-2 border-orange-400 rounded-full hover:bg-orange-400 hover:text-white font-semibold shadow-md hover:shadow-none">
                 Sign Up Now</button>
             </div>

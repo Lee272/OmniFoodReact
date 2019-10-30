@@ -22,7 +22,7 @@ export default class TailWindCSS extends React.Component{
         {/* MAIN BODY */}
         <div className="md:flex md:items-center md:justify-center">
           <div className="flex justify-center">
-            <Image className="w-48 my-4"
+            <Image className="w-48 my-4" id="slide"
               src={PhoneImg}
             />
           </div>
