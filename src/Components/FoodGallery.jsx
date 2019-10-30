@@ -14,7 +14,7 @@ import eight from '../img/8.jpg';
 
 export default function FoodGallery(){
   return(
-    <section className="FGSection p-0">
+    <section className="">
 
       <Container fluid={true}>
         <Row>

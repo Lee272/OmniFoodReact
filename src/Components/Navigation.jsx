@@ -5,7 +5,7 @@ import Logo from '../img/logo-white.png';
 
 export default function Navigation() {
   return(
-    <Navbar variant="dark" expand="lg" className="main-nav sticky-top">
+    <Navbar fluid={true} variant="dark" expand="lg" className="main-nav sticky-top m-2 px-4">
       <Navbar.Brand href="#home">
         <img src={Logo} alt={"logo"} style={{height: '5em'}} />
       </Navbar.Brand>

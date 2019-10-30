@@ -4,7 +4,9 @@ import {androidPerson} from 'react-icons-kit/ionicons/androidPerson';
 import {androidStar} from 'react-icons-kit/ionicons/androidStar';
 import {socialTwitter} from 'react-icons-kit/ionicons/socialTwitter'
 import  Lisbon from '../img/lisbon-3.jpg';
-
+import  Berlin from '../img/berlin.jpg';
+import  London from '../img/london.jpg';
+import  SanFran from '../img/san-francisco.jpg';
 
 
 export default class Cities extends React.Component{
@@ -15,8 +17,11 @@ export default class Cities extends React.Component{
     return(
 
       <section>
+        <div className="px-auto text-center">
+          <h1 className="P-underline p-4">We Are In These Cities</h1>
+        </div>
         {/* Card - DIVOne */}
-        <div className="w-3/4 mx-auto shadow-md md:flex md:w-3/4">
+        <div className="w-3/4 mx-auto md:flex md:w-full">
         {/* Card One */}
           <div className="m-2">
             <div className="w-full">
@@ -24,7 +29,7 @@ export default class Cities extends React.Component{
                 src={Lisbon} alt="Lisbon" />
             </div>
             <div>
-              <h1 className="p-2 font-semibold text-2xl">{ this.props.Cities[0] }</h1>
+              <h1 className="p-2 font-semibold text-2xl  md:text-xl lg:text-2xl">{ this.props.Cities[0] }</h1>
             </div>
 
             <div className="p-2">
@@ -49,10 +54,10 @@ export default class Cities extends React.Component{
           <div className="m-2">
             <div className="w-full">
               <img className="rounded object-cover object-center"
-                src={Lisbon} alt="Lisbon" />
+                src={Berlin} alt="Lisbon" />
             </div>
             <div>
-              <h1 className="p-2 font-semibold text-2xl">{ this.props.Cities[0] }</h1>
+              <h1 className="p-2 font-semibold text-2xl md:text-xl lg:text-2xl">{ this.props.Cities[1] }</h1>
             </div>
 
             <div className="p-2">
@@ -77,10 +82,10 @@ export default class Cities extends React.Component{
           <div className="m-2">
             <div className="w-full">
               <img className="rounded object-cover object-center"
-                src={Lisbon} alt="Lisbon" />
+                src={London} alt="Lisbon" />
             </div>
             <div>
-              <h1 className="p-2 font-semibold text-2xl">{ this.props.Cities[0] }</h1>
+              <h1 className="p-2 font-semibold text-2xl md:text-xl lg:text-2xl">{ this.props.Cities[2] }</h1>
             </div>
 
             <div className="p-2">
@@ -102,13 +107,13 @@ export default class Cities extends React.Component{
             </div>
           </div>
           {/* Card Four */}
-          <div className="m-2 border-black">
+          <div className="m-2">
             <div className="w-full">
               <img className="rounded object-cover object-center"
-                src={Lisbon} alt="Lisbon" />
+                src={SanFran} alt="Lisbon" />
             </div>
             <div>
-              <h1 className="p-2 font-semibold text-2xl">{ this.props.Cities[0] }</h1>
+              <h1 className="p-2 font-semibold text-2xl md:text-xl lg:text-2xl">{ this.props.Cities[3] }</h1>
             </div>
 
             <div className="p-2">

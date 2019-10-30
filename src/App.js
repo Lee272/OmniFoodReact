@@ -17,8 +17,8 @@ export default function App() {
       {/* <MainSection /> */}
       {/* <FoodDelivery /> */}
       {/* <FoodGallery /> */}
-      {/* <TailWindCSS /> */}
-      <Cities Cities={["Lisbon", "Berlin", "London"]} />
+      <TailWindCSS />
+      {/* <Cities Cities={["Lisbon", "Berlin", "London", "San Francisco"]} /> */}
     </React.Fragment>
 //     <Router>
 //       <React.Fragment>
