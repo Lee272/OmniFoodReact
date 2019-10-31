@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
-import CardDeck from 'react-bootstrap/CardDeck'
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { Icon } from 'react-icons-kit';
 import {iosInfiniteOutline} from 'react-icons-kit/ionicons/iosInfiniteOutline';
 import {iosStopwatchOutline} from 'react-icons-kit/ionicons/iosStopwatchOutline';

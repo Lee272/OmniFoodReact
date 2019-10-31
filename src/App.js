@@ -12,6 +12,8 @@ import TailWindCSS from './Components/TailWindCSS';
 import Cities from './Components/Cities';
 import Testimonials from './Components/Testimonials';
 import OrderMenu from './Components/OrderMenu';
+import ContactForm from './Components/ContactForm';
+import Footer from './Components/Footer';
 
 export default function App() {
   return (
@@ -23,6 +25,8 @@ export default function App() {
       <Cities Cities={["Lisbon", "Berlin", "London", "San Francisco"]} />
       <Testimonials />
       <OrderMenu />
+      <ContactForm />
+      <Footer />
     </React.Fragment>
 //     <Router>
 //       <React.Fragment>
