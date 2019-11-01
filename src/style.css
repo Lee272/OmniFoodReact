@@ -80,6 +80,11 @@ section {
   text-decoration: none;
   border: none;
   background: transparent;
+  transition: transform 0.5s;
+}
+
+.list-group-item:hover {
+  transform: scale(1.1);
 }
 
 .list-group-item a{
@@ -89,12 +94,13 @@ section {
   color:#ffffff;
   padding: 4px;
   text-decoration: none;
-  transition: border-bottom 0.1s;
+  transition: border-bottom 0s;
 }
 
 .list-group-item a:hover{
   border-bottom: 2px solid #bd702d;
 }
+
 /* Underline Trick */
 .P-underline::after{
   display: block;
@@ -116,7 +122,7 @@ div.card.gallery{
   transition: transform 2s;
 }
 div.card.gallery:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .oneNumber{
   display: inline-block;

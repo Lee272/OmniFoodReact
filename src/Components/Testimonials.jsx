@@ -14,8 +14,6 @@ export default class Testimonials extends React.Component {
 
     return(
       <div className="backgroundT">
-          {/* <img className="h-screen object-cover object-center bg-fixed"
-            src={BgTestimonials} alt="TestimonialsBG" /> */}
       {/* HEADER */}
           <div className="pt-6">
             <h1 className="mb-4 P-underline text-center text-3xl text-white">
