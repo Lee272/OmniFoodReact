@@ -3,32 +3,11 @@ import '../style.css';
 
 export default class ContactForm extends React.Component {
 
-  // constructor(){
-  // super();
-    // this.state = { isChecked: false };
-    // this.toggleCheckBox = this.toggleCheckBox.bind(this);
-    // let Sub = document.querySelector('#Test');
-// }
+state = { isChecked: false };
 
-// toggleCheckBox = () => {
-//   console.log("Nothing")
-//   if ( this.newsletterAccept === "" ){
-//     console.log("Checked")
-//   }
-// }
-
-// toggleCheckBox () {
-//   this.setState({ isChecked: !this.state.isChecked });
-// }
-
-// Test = (newsletterAccept) => {
-//   if ( this.isChecked === true ){
-//     console.log("Working");
-//   } else {
-//     console.log("Nope")
-//   }
-// }
-
+toggleCheckBox = () => {
+  this.setState({ isChecked: !this.state.isChecked });
+}
 
   render(){
     console.log(this.state)
@@ -86,8 +65,12 @@ export default class ContactForm extends React.Component {
                 Newsletter
               </label>
               <div className="ml-3">
-                <input type="checkbox" id="newsletterAccept" onChange={this.toggleCheckBox} onClick={this.Test} />
-                <p className="hidden" id="Test" name="test" value="test">Thank you for Subscribing</p>
+                <input type="checkbox" id="newsletterAccept" onChange={this.toggleCheckBox} />
+                {this.state.isChecked &&
+                  <p id="Test" name="test" value="test">Thank you for Subscribing</p>
+                }
+                {/* <p className={this.state.isChecked ? '' : 'hidden'} id="Test" name="test" value="test">Thank you for Subscribing</p> */}
+
               </div>
             </div>
             {/* CALL US */}
