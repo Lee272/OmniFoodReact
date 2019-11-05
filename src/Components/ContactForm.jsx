@@ -4,9 +4,15 @@ import '../style.css';
 export default class ContactForm extends React.Component {
 
 state = { isChecked: false };
+state = { name: "", email: "", registrationErrors: ""  };
 
 toggleCheckBox = () => {
   this.setState({ isChecked: !this.state.isChecked });
+}
+
+eventHandle = (event) => {
+  this.setState({ name:event.target.name, email:event.target.email })
+  console.log(this.name)
 }
 
   render(){
@@ -30,7 +36,11 @@ toggleCheckBox = () => {
               </div>
               {/* FIRSTNAME INPUT */}
               <div className="my-3 md:w-2/3">
-                <input className="p-1 w-full border-2 border-gray-300 focus:outline-none focus:border-gray-400" placeholder="Your Name" />
+                <input 
+                  name="name"
+                  // value={  }
+                  className="p-1 w-full border-2 border-gray-300 focus:outline-none focus:border-gray-400" 
+                  placeholder="Your Name" />
               </div>
             </div>
             {/* EMAIL LABEL */}
@@ -41,7 +51,12 @@ toggleCheckBox = () => {
                 </label>
               </div>
               <div className="md:w-2/3">
-                <input className="p-1 w-full border-2 focus:outline-none focus:border-gray-400" placeholder="Your Email Address" require />
+                <input 
+                  type="email" 
+                  // name="email" value={this.state.email} 
+                  // onChange={ this.eventChange }
+                  className="p-1 w-full border-2 focus:outline-none focus:border-gray-400" 
+                  placeholder="Your Email Address" required />
               </div>
             </div>
             {/* FIND US */}
@@ -60,14 +75,14 @@ toggleCheckBox = () => {
               </div>
             </div>
             {/* NEWSLETTER */}
-            <div className="mb-4 md:flex">
+            <div className="mb-4 mt-4 flex">
               <label className="m-0 text-base font-semibold">
                 Newsletter
               </label>
-              <div className="ml-3">
+              <div className="ml-3 md:flex md:items-center">
                 <input type="checkbox" id="newsletterAccept" onChange={this.toggleCheckBox} />
                 {this.state.isChecked &&
-                  <p id="Test" name="test" value="test">Thank you for Subscribing</p>
+                  <p className="ml-2 mb-0" id="Test" name="test" value="test">Thank you for Subscribing</p>
                 }
                 {/* <p className={this.state.isChecked ? '' : 'hidden'} id="Test" name="test" value="test">Thank you for Subscribing</p> */}
 
@@ -84,7 +99,8 @@ toggleCheckBox = () => {
             </div>
             {/* SUBMIT BUTTON */}
             <div className="m-3 text-center">
-              <button className=" w-25 h-10 bg-orange-500 border-2 border-orange-400 rounded-full text-white font-semibold shadow-md">
+              <button onChange={ this.eventHandle }
+                className=" w-25 h-10 bg-orange-500 border-2 border-orange-400 rounded-full text-white font-semibold shadow-md">
                 Send
               </button>
             </div>

@@ -14,6 +14,7 @@ import Testimonials from './Components/Testimonials';
 import OrderMenu from './Components/OrderMenu';
 import ContactForm from './Components/ContactForm';
 import Footer from './Components/Footer';
+import AllGallery from './Components/AllGallery';
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
       <OrderMenu />
       <ContactForm />
       <Footer />
+      <AllGallery />
     </React.Fragment>
 {/*     <Router>
       <React.Fragment>
