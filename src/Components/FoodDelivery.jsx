@@ -46,7 +46,7 @@ export default class FoodDelivery extends React.Component{
           <Card className="flex">
           <div style={{ color: '#e67e22' }}> <Icon size={64} icon={iosNutritionOutline} /> </div>
            <Card.Body className="p-1 mb-3">
-              <Card.Title>100% ORGANIC</Card.Title>
+              <Card.Title className="md:pb-6">100% ORGANIC</Card.Title>
               <Card.Text className="text-sm">
                 All our vegetables are fresh, organic and local.
                 Animals are raised without added hormones or antibiotics.

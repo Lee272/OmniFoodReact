@@ -14,26 +14,26 @@ import eight from '../img/8.jpg';
 
 export default function FoodGallery(){
   return(
-    <section className="">
+    <section className="pt-20">
 
       <Container fluid={true}>
-        <Row>
-          <Col className="col-sm-3 p-0 overflow-hidden">
+        <Row className="">
+          <Col className="col-4 col-sm-3 p-0 overflow-hidden bg-black">
               <Card className="gallery">
                 <Image src={one} className="Image" />
               </Card>
           </Col>
-          <Col className="col-sm-3 p-0 overflow-hidden">
+          <Col className="col-4 col-sm-3 p-0 overflow-hidden bg-black">
               <Card className="gallery">
                 <Image src={two} />
               </Card>
           </Col>
-          <Col className="col-sm-3 p-0 overflow-hidden">
+          <Col className="col-4 col-sm-3 p-0 overflow-hidden bg-black">
               <Card className="gallery">
                 <Image src={three} />
               </Card>
           </Col>
-          <Col className="col-sm-3 p-0 overflow-hidden">
+          <Col className="col-12 col-sm-3 p-0 overflow-hidden bg-black">
               <Card className="gallery">
                 <Image src={four} />
               </Card>
@@ -41,23 +41,23 @@ export default function FoodGallery(){
         </Row>
       </Container>
       <Container fluid={true}>
-        <Row>
-          <Col className="col-sm-3 p-0 overflow-hidden">
+        <Row className="bg-black">
+          <Col className="col-12 col-sm-3 p-0 overflow-hidden bg-black">
               <Card className="gallery">
                 <Image src={five} className="Image" />
               </Card>
           </Col>
-          <Col className="col-sm-3 p-0 overflow-hidden">
+          <Col className="col-4 col-sm-3 p-0 overflow-hidden bg-black">
               <Card className="gallery">
                 <Image src={six} />
               </Card>
           </Col>
-          <Col className="col-sm-3 p-0 overflow-hidden">
+          <Col className="col-4 col-sm-3 p-0 overflow-hidden bg-black">
               <Card className="gallery">
                 <Image src={seven} />
               </Card>
           </Col>
-          <Col className="col-sm-3 p-0 overflow-hidden">
+          <Col className="col-4 col-sm-3 p-0 overflow-hidden bg-black">
               <Card className="gallery">
                 <Image src={eight} />
               </Card>

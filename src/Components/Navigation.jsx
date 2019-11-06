@@ -16,7 +16,8 @@ userLogon = () => {
   render() {
     console.log(this.state.userLog)
     return(
-      <Navbar fluid={true} variant="dark" expand="lg" className="main-nav sticky-top m-2 px-4">
+    <div className="">
+      <Navbar fluid={true} variant="dark" expand="lg" className="main-nav m-2 px-4">
         <Navbar.Brand href="#home">
           <img src={Logo} alt={"logo"} style={{height: '5em'}} />
         </Navbar.Brand>
@@ -40,12 +41,13 @@ userLogon = () => {
               <a href="#SignUp">Sign Up</a>
             </li>
             <li className="list-group-item mr-2 p-0 flex items-center">
-              <img className="w-12 h-12 rounded-full" onTouchMove={this.state.userLogon}
+              <img className="hidden w-12 h-12 rounded-full" onTouchMove={this.state.userLogon}
                 src={User1} alt="User1" />
             </li>
           </ul>
         </div>
       </Navbar.Collapse>
     </Navbar>
+  </div>
   )}
 }

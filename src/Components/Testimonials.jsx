@@ -13,10 +13,10 @@ export default class Testimonials extends React.Component {
   render() {
 
     return(
-      <div className="backgroundT">
+      <div className="backgroundT py-20">
       {/* HEADER */}
-          <div className="pt-6">
-            <h1 className="mb-4 P-underline text-center text-3xl text-white">
+          <div className="">
+            <h1 className="my-4 P-underline text-center text-3xl text-white">
               Our Customers Cant Live Without Us
             </h1>
           </div>

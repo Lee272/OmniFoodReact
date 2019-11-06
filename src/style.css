@@ -80,12 +80,12 @@ section {
   text-decoration: none;
   border: none;
   background: transparent;
-  transition: transform 0.5s;
+  /* transition: transform 0.5s; */
 }
 
-.list-group-item:hover {
+/* .list-group-item:hover {
   transform: scale(1.1);
-}
+} */
 
 .list-group-item a{
   font-family: 'Lato', sans-serif;
@@ -119,11 +119,15 @@ section {
 }
 /* Food Gallery */
 div.card.gallery{
-  transition: transform 2s;
+  transform: scale(1.1);
+  opacity: 75%;
+  transition: all 1s;
 }
 div.card.gallery:hover{
-  transform: scale(1.1);
+  transform: scale(1);
+  opacity: 100%;
 }
+
 .oneNumber{
   display: inline-block;
   color: #e67e22;
@@ -152,6 +156,11 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+
+blockquote:after {
+  content: close-quote;
+}
+
 blockquote p {
   display: inline;
 }

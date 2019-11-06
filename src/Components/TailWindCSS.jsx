@@ -56,8 +56,8 @@ export default class TailWindCSS extends React.Component{
               </p>
             </div>
             {/* DEVICE BUTTONS */}
-            <div className="flex items-center justify-center">
-              <a href="#StartPoint" className="p-1 border-2">
+            <div className="flex items-center justify-center sm:pb-20">
+              <a href="#StartPoint" className="p-1">
               <img src={GooglePlay} alt="unit01" className="w-auto h-12 m-2" />
               </a>
               <a href="#NextStop" className="p-1">

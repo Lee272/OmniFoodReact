@@ -16,9 +16,9 @@ export default class Cities extends React.Component{
   render(){
     return(
 
-      <section>
+      <section className="pb-20">
         <div className="px-auto text-center">
-          <h1 className="P-underline p-4">We Are In These Cities</h1>
+          <h1 className="P-underline p-4 m-0">We Are In These Cities</h1>
         </div>
         {/* Card - DIVOne */}
         <div className="w-3/4 mx-auto md:flex md:w-full">
@@ -29,10 +29,10 @@ export default class Cities extends React.Component{
                 src={Lisbon} alt="Lisbon" />
             </div>
             <div>
-              <h1 className="p-2 font-semibold text-2xl  md:text-xl lg:text-2xl">{ this.props.Cities[0] }</h1>
+              <h1 className="p-2 m-0 font-semibold text-2xl  md:text-xl lg:text-2xl">{ this.props.Cities[0] }</h1>
             </div>
 
-            <div className="p-2">
+            <div className="p-3 mb-4">
               <div style={{ color: '#e67e22' }} className="flex">
                 <Icon size={20} icon={androidPerson} />
                 <p className="mb-0 text-black">1600+ happy eaters</p>
@@ -57,10 +57,10 @@ export default class Cities extends React.Component{
                 src={Berlin} alt="Lisbon" />
             </div>
             <div>
-              <h1 className="p-2 font-semibold text-2xl md:text-xl lg:text-2xl">{ this.props.Cities[1] }</h1>
+              <h1 className="p-2 m-0 font-semibold text-2xl md:text-xl lg:text-2xl">{ this.props.Cities[1] }</h1>
             </div>
 
-            <div className="p-2">
+            <div className="p-3 mb-4">
               <div style={{ color: '#e67e22' }} className="flex">
                 <Icon size={20} icon={androidPerson} />
                 <p className="mb-0 text-black">1600+ happy eaters</p>
@@ -85,10 +85,10 @@ export default class Cities extends React.Component{
                 src={London} alt="Lisbon" />
             </div>
             <div>
-              <h1 className="p-2 font-semibold text-2xl md:text-xl lg:text-2xl">{ this.props.Cities[2] }</h1>
+              <h1 className="p-2 m-0 font-semibold text-2xl md:text-xl lg:text-2xl">{ this.props.Cities[2] }</h1>
             </div>
 
-            <div className="p-2">
+            <div className="p-3 mb-4">
               <div style={{ color: '#e67e22' }} className="flex">
                 <Icon size={20} icon={androidPerson} />
                 <p className="mb-0 text-black">1600+ happy eaters</p>
@@ -113,10 +113,10 @@ export default class Cities extends React.Component{
                 src={SanFran} alt="Lisbon" />
             </div>
             <div>
-              <h1 className="p-2 font-semibold text-2xl md:text-xl lg:text-2xl">{ this.props.Cities[3] }</h1>
+              <h1 className="p-2 m-0 font-semibold text-2xl md:text-xl lg:text-2xl">{ this.props.Cities[3] }</h1>
             </div>
 
-            <div className="p-2">
+            <div className="p-3 mb-4">
               <div style={{ color: '#e67e22' }} className="flex">
                 <Icon size={20} icon={androidPerson} />
                 <p className="mb-0 text-black">1600+ happy eaters</p>

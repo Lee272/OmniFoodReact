@@ -9,15 +9,15 @@ export default class OrderMenu extends React.Component {
   render() {
     return (
       // PAGE START
-      <div className="bg-gray-100">
+      <div className="bg-gray-100 py-20">
       {/* TITLE */}
         <div>
-          <h1 className="m-0 pt-12 pb-6 P-underline text-center xl:text-5xl">
+          <h1 className="m-0 pb-6 P-underline text-center xl:text-5xl">
             Start Eating Healthy Today
           </h1>
         </div>
         {/* CARD CONTAINER */}
-        <div className="lg:flex lg:justify-center">
+        <div className="sm:px-10 lg:flex lg:justify-center">
           <div className="m-4 shadow-md md:flex lg:block">
           {/* CARD TOP */}
             <div className="px-4 pt-4 bg-gray-200 rounded-lg md:w-full">

@@ -51,11 +51,11 @@ eventHandle = (event) => {
                 </label>
               </div>
               <div className="md:w-2/3">
-                <input 
-                  type="email" 
-                  // name="email" value={this.state.email} 
+                <input
+                  type="email"
+                  // name="email" value={this.state.email}
                   // onChange={ this.eventChange }
-                  className="p-1 w-full border-2 focus:outline-none focus:border-gray-400" 
+                  className="p-1 w-full border-2 focus:outline-none focus:border-gray-400"
                   placeholder="Your Email Address" required />
               </div>
             </div>
@@ -75,14 +75,16 @@ eventHandle = (event) => {
               </div>
             </div>
             {/* NEWSLETTER */}
-            <div className="mb-4 mt-4 flex">
+            <div className="mb-4 mt-4 flex items-center">
               <label className="m-0 text-base font-semibold">
                 Newsletter
               </label>
-              <div className="ml-3 md:flex md:items-center">
+              <div className="ml-3 flex items-center">
                 <input type="checkbox" id="newsletterAccept" onChange={this.toggleCheckBox} />
                 {this.state.isChecked &&
-                  <p className="ml-2 mb-0" id="Test" name="test" value="test">Thank you for Subscribing</p>
+                  <div className="ml-2 p-1 bg-white rounded-lg shadow-md shadow">
+                    <p className="ml-2 mb-0" id="Test" name="test" value="test">Thank you for Subscribing</p>
+                  </div>
                 }
                 {/* <p className={this.state.isChecked ? '' : 'hidden'} id="Test" name="test" value="test">Thank you for Subscribing</p> */}
 
@@ -94,7 +96,7 @@ eventHandle = (event) => {
                 Drop Us A Line
               </label>
               <div className="h-full w-full">
-                <input className="w-full h-40 mt-2 border-gray-400 border-2" type="textarea" placeholder="You Message" />
+                <input className="w-full h-40 mt-2 border-gray-400 border-2 text-center" type="textarea" placeholder="Your Message" />
               </div>
             </div>
             {/* SUBMIT BUTTON */}
