@@ -16,7 +16,7 @@ export default class Cities extends React.Component{
   render(){
     return(
 
-      <section className="pb-20">
+      <section className="pb-20" id="Cities">
         <div className="px-auto text-center">
           <h1 className="P-underline p-4 m-0">We Are In These Cities</h1>
         </div>

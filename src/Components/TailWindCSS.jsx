@@ -11,11 +11,11 @@ export default class TailWindCSS extends React.Component{
   render(){
     return(
 
-      <section className="bg-gray-100 py-10">
+      <section className="bg-gray-100 py-10" id="How">
         <div>
         {/* HEADER */}
           <div>
-            <h1 className="text-center P-underline mb-10 text-4xl">
+            <h1 className="text-center P-underline mb-10 text-3xl sm:text-4xl lg:text-5xl">
               How It Works - Simple As 1, 2, 3
             </h1>
           </div>

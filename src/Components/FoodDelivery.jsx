@@ -10,12 +10,12 @@ import {iosCartOutline} from 'react-icons-kit/ionicons/iosCartOutline';
 export default class FoodDelivery extends React.Component{
   render(){
     return(
-      <section className="text-center FoodDelivery" id="NextStop">
+      <section className="text-center FoodDelivery" id="FoodDelivery">
 
         <Row className="">
           <Col className="">
             <h1 className="mt-6 P-underline">Get Food Fast — Not Fast Food</h1>
-            <p className="my-2 px-8 py-4 text-justify">
+            <p className="my-2 px-8 py-4 text-justify xl:w-2/3 xl:mx-auto">
               Hello, we're Omnifood, your new premium food delivery service. We know you're always busy. No time for cooking. So let us take care of that, we're really good at it, we promise!
             </p>
           </Col>
