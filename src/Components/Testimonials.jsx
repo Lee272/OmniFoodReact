@@ -15,13 +15,13 @@ export default class Testimonials extends React.Component {
     return(
       <div className="backgroundT py-20">
       {/* HEADER */}
-          <div className="">
+          <div>
             <h1 className="my-4 P-underline text-center text-3xl text-white">
               Our Customers Cant Live Without Us
             </h1>
           </div>
           {/* TESTIMONIALS */}
-          <div className="text-justify md:flex md:items-baseline lg:mx-8">
+          <div className="text-justify md:flex md:items-baseline lg:mx-8 md:text-sm">
             {/* TESTIMONIAL ONE */}
             <div className="p-2 text-white md:w-1/3">
               <blockquote>
@@ -37,8 +37,8 @@ export default class Testimonials extends React.Component {
               </div>
             </div>
           {/* TESTIMONIAL Two */}
-          <div className="p-2 text-white md:w-1/3">
-            <blockquote>
+          <div className="p-2 text-white md:w-1/3 md:flex-1">
+            <blockquote className="">
               <br />
               <p>
                 Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
@@ -51,7 +51,7 @@ export default class Testimonials extends React.Component {
               </div>
           </div>
           {/* TESTIMONIAL THREE */}
-          <div className="p-2 text-white md:w-1/3">
+          <div className="p-2 text-white md:w-1/3 md:flex-1">
             <blockquote>
               <br />
               <p>

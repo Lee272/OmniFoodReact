@@ -29,10 +29,10 @@ export default class OrderMenu extends React.Component {
             {/* MIDDLE SECTION */}
             <div className="p-4 border-t-2 border-b-2 bg-white md:w-full md:border-0">
               <ol className="font-semibold">
-                <li className="my-2"><span className="mr-2 text-orange-600">&#8730;</span> 1 Meal Everyday</li>
-                <li className="my-2"><span className="mr-2 text-orange-600">&#8730;</span> Order 24/7</li>
-                <li className="my-2"><span className="mr-2 text-orange-600">&#8730;</span> Access to New Creations</li>
-                <li className="my-2"><span className="mr-2 text-orange-600">&#8730;</span> Free Delivery</li>
+                <li className="my-2 md:flex"><span className="mr-2 text-orange-600">&#8730;</span> 1 Meal Everyday</li>
+                <li className="my-2 md:flex"><span className="mr-2 text-orange-600">&#8730;</span> Order 24/7</li>
+                <li className="my-2 md:flex"><span className="mr-2 text-orange-600">&#8730;</span> Access to New Creations</li>
+                <li className="my-2 md:flex"><span className="mr-2 text-orange-600">&#8730;</span> Free Delivery</li>
               </ol>
             </div>
             {/* CARD BOTTOM */}
@@ -53,10 +53,10 @@ export default class OrderMenu extends React.Component {
             {/* MIDDLE SECTION */}
             <div className="p-4 border-t-2 border-b-2 bg-white md:w-full md:border-0">
               <ol className="font-semibold">
-                <li className="my-2"><span className="mr-2 text-orange-600">&#8730;</span> 1 Meal 10 Days/Everyday</li>
-                <li className="my-2"><span className="mr-2 text-orange-600">&#8730;</span> Order 24/7</li>
-                <li className="my-2"><span className="mr-2 text-orange-600">&#8730;</span> Access to New Creations</li>
-                <li className="my-2"><span className="mr-2 text-orange-600">&#8730;</span> Free Delivery</li>
+                <li className="my-2 md:flex"><span className="mr-2 text-orange-600">&#8730;</span> 1 Meal 10 Days/Everyday</li>
+                <li className="my-2 md:flex"><span className="mr-2 text-orange-600">&#8730;</span> Order 24/7</li>
+                <li className="my-2 md:flex"><span className="mr-2 text-orange-600">&#8730;</span> Access to New Creations</li>
+                <li className="my-2 md:flex"><span className="mr-2 text-orange-600">&#8730;</span> Free Delivery</li>
               </ol>
             </div>
             {/* CARD BOTTOM */}
@@ -77,10 +77,10 @@ export default class OrderMenu extends React.Component {
             {/* MIDDLE SECTION */}
             <div className="p-4 border-t-2 border-b-2 bg-white md:w-full md:border-0">
               <ol className="font-semibold">
-                <li className="my-2"><span className="mr-2 text-orange-600">&#8730;</span> 1 Meal</li>
-                <li className="my-2"><span className="mr-2 text-orange-600">&#8730;</span> Order from 8am to 12pm</li>
-                <li className="my-2"><span className="mr-2 text-orange-600">&#8730;</span> Free Delivery</li>
-                <li className="my-2"><span className="mr-2 text-orange-600">&#8855;</span> Access to New Creations</li>
+                <li className="my-2 md:flex"><span className="mr-2 text-orange-600">&#8730;</span> 1 Meal</li>
+                <li className="my-2 md:flex"><span className="mr-2 text-orange-600">&#8730;</span> Order from 8am to 12pm</li>
+                <li className="my-2 md:flex"><span className="mr-2 text-orange-600">&#8730;</span> Free Delivery</li>
+                <li className="my-2 md:flex"><span className="mr-2 text-orange-600">&#8855;</span> Access to New Creations</li>
               </ol>
             </div>
             {/* CARD BOTTOM */}

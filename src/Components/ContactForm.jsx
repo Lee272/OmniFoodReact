@@ -18,7 +18,7 @@ eventHandle = (event) => {
   render(){
     console.log(this.state)
     return(
-      <div>
+      <div className="py-10">
       {/* HEADER */}
         <div>
           <h1 className="P-underline text-center text-3xl md:text-4xl">We are Happy to Hear From You</h1>

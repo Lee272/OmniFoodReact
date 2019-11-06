@@ -164,3 +164,27 @@ blockquote:after {
 blockquote p {
   display: inline;
 }
+
+.instagram {
+  color: gray;
+  transition: all 0.4s;
+}
+.instagram:hover { color: #8a3ab9; }
+
+.googleplus {
+  color: gray;
+  transition: all 0.4s;
+}
+.googleplus:hover { color: #DD4B39; }
+
+.twitter {
+  color: gray;
+  transition: all 0.4s;
+}
+.twitter:hover { color: #38A1F3; }
+
+.facebook {
+  color: gray;
+  transition: all 0.4s;
+}
+.facebook:hover { color: #3b5998; }

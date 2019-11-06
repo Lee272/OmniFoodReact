@@ -15,7 +15,7 @@ export default class Footer extends React.Component {
     return(
       <footer className="h-full bg-gray-800 text-xs">
       {/* LINKS */}
-        <div className="">
+        <div className="w-full text-center">
           <ul className="m-auto flex justify-center text-gray-500">
             <li className="p-2 hover:text-white">About Us</li>
             <li className="p-2 hover:text-white">Blog</li>
@@ -25,24 +25,24 @@ export default class Footer extends React.Component {
           </ul>
         </div>
         {/* COPYRIGHT */}
-        <div className="text-gray-500 text-center">
+        <div className="text-gray-500 text-center w-full items-center">
           <p>
             Copyright © 2015 by Omnifood. All rights reserved
           </p>
         </div>
         {/* SOCIAL */}
-        <div className="flex justify-center">
-          <div style={{ color: '#3b5998' }} className="flex p-2">
-            <Icon size={20} icon={facebook} />
+        <div className="pr-0 flex justify-center md:pr-10 md:justify-end w-full">
+          <div style={{ color: '' }} className="flex p-2">
+            <Icon className="facebook" size={20} icon={facebook} />
           </div>
-          <div style={{ color: '#38A1F3' }} className="flex p-2">
-            <Icon size={20} icon={twitter} />
+          <div style={{ color: '' }} className="flex p-2">
+            <Icon className="twitter" size={20} icon={twitter} />
           </div>
-          <div style={{ color: '#DD4B39' }} className="flex p-2">
-            <Icon size={20} icon={googlePlus} />
+          <div style={{ color: '' }} className="flex p-2">
+            <Icon className="googleplus" size={20} icon={googlePlus} />
           </div>
-          <div style={{ color: '#8a3ab9' }} className="flex p-2">
-            <Icon size={20} icon={instagram} />
+          <div style={{ color: '' }} className="flex p-2">
+            <Icon className="instagram" size={20} icon={instagram} />
           </div>
         </div>
       </footer>

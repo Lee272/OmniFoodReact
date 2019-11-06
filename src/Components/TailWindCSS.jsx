@@ -11,7 +11,7 @@ export default class TailWindCSS extends React.Component{
   render(){
     return(
 
-      <section className="bg-gray-100">
+      <section className="bg-gray-100 py-10">
         <div>
         {/* HEADER */}
           <div>
@@ -21,19 +21,19 @@ export default class TailWindCSS extends React.Component{
           </div>
         {/* MAIN BODY */}
         <div className="md:flex md:items-center md:justify-center">
-          <div className="flex justify-center">
+          <div className="flex justify-center md:w-1/3">
             <Image className="w-48 my-4" id="slide"
               src={PhoneImg}
             />
           </div>
           {/* INFORMATION POINTS - Container */}
-          <div className="">
+          <div className="md:w-2/3">
             {/* Section One */}
             <div className="m-2 flex items-center">
               <div className="h-12 w-12 ml-4 border-2 border-orange-600 rounded-full flex items-center justify-center text-orange-600 text-2xl font-bold">
                 1
               </div>
-              <p className="mb-0 ml-4">
+              <p className="mb-0 ml-4 md:ml-0">
                 Choose the subscription plan that best fits your needs and sign up today
               </p>
             </div>

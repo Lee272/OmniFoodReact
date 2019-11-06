@@ -21,7 +21,7 @@ export default class FoodDelivery extends React.Component{
           </Col>
         </Row>
         <div className="mx-2 px-6 text-left w-full md:flex">
-          <Card className="">
+          <Card className="flex p-2">
           <div style={{ color: '#e67e22' }}> <Icon size={64} icon={iosInfiniteOutline} /> </div>
             <Card.Body className="p-1 mb-3">
               <Card.Title>UP TO 365 DAYS/YEAR</Card.Title>
@@ -32,7 +32,7 @@ export default class FoodDelivery extends React.Component{
             </Card.Body>
           </Card>
 
-          <Card>
+          <Card className="flex p-2">
             <div style={{ color: '#e67e22' }}> <Icon size={64} icon={iosStopwatchOutline} /> </div>
             <Card.Body className="p-1 mb-3">
               <Card.Title>READY IN 20 MINUTES</Card.Title>
@@ -43,10 +43,10 @@ export default class FoodDelivery extends React.Component{
             </Card.Body>
           </Card>
 
-          <Card className="flex">
+          <Card className="flex p-2">
           <div style={{ color: '#e67e22' }}> <Icon size={64} icon={iosNutritionOutline} /> </div>
            <Card.Body className="p-1 mb-3">
-              <Card.Title className="md:pb-6">100% ORGANIC</Card.Title>
+              <Card.Title className="md:pb-6 lg:pb-0">100% ORGANIC</Card.Title>
               <Card.Text className="text-sm">
                 All our vegetables are fresh, organic and local.
                 Animals are raised without added hormones or antibiotics.
@@ -55,7 +55,7 @@ export default class FoodDelivery extends React.Component{
             </Card.Body>
           </Card>
 
-          <Card className="flex">
+          <Card className="flex p-2">
           <div style={{ color: '#e67e22' }}> <Icon size={64} icon={iosCartOutline} /> </div>
             <Card.Body className="p-1 mb-3">
               <Card.Title>ORDER ANYTHING</Card.Title>

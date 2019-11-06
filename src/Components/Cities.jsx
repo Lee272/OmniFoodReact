@@ -32,7 +32,7 @@ export default class Cities extends React.Component{
               <h1 className="p-2 m-0 font-semibold text-2xl  md:text-xl lg:text-2xl">{ this.props.Cities[0] }</h1>
             </div>
 
-            <div className="p-3 mb-4">
+            <div className="sm:p-3 mb-4 md:p-2 md:text-sm md:text-capitalize">
               <div style={{ color: '#e67e22' }} className="flex">
                 <Icon size={20} icon={androidPerson} />
                 <p className="mb-0 text-black">1600+ happy eaters</p>
@@ -60,7 +60,7 @@ export default class Cities extends React.Component{
               <h1 className="p-2 m-0 font-semibold text-2xl md:text-xl lg:text-2xl">{ this.props.Cities[1] }</h1>
             </div>
 
-            <div className="p-3 mb-4">
+            <div className="sm:p-3 mb-4 md:p-2 md:text-sm md:text-capitalize">
               <div style={{ color: '#e67e22' }} className="flex">
                 <Icon size={20} icon={androidPerson} />
                 <p className="mb-0 text-black">1600+ happy eaters</p>
@@ -88,7 +88,7 @@ export default class Cities extends React.Component{
               <h1 className="p-2 m-0 font-semibold text-2xl md:text-xl lg:text-2xl">{ this.props.Cities[2] }</h1>
             </div>
 
-            <div className="p-3 mb-4">
+            <div className="sm:p-3 mb-4 md:p-2 md:text-sm md:text-capitalize">
               <div style={{ color: '#e67e22' }} className="flex">
                 <Icon size={20} icon={androidPerson} />
                 <p className="mb-0 text-black">1600+ happy eaters</p>
@@ -116,7 +116,7 @@ export default class Cities extends React.Component{
               <h1 className="p-2 m-0 font-semibold text-2xl md:text-xl lg:text-2xl">{ this.props.Cities[3] }</h1>
             </div>
 
-            <div className="p-3 mb-4">
+            <div className="sm:p-3 mb-4 md:p-2 md:text-sm md:text-capitalize">
               <div style={{ color: '#e67e22' }} className="flex">
                 <Icon size={20} icon={androidPerson} />
                 <p className="mb-0 text-black">1600+ happy eaters</p>
