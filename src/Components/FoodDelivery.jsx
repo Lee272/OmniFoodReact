@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import Card from 'react-bootstrap/Card'
 import { Row, Col } from 'react-bootstrap';
 import { Icon } from 'react-icons-kit';
@@ -20,6 +21,11 @@ export default class FoodDelivery extends React.Component{
             </p>
           </Col>
         </Row>
+        <ScrollAnimation
+          delay={500}
+          animateIn="fadeIn"
+          animateOut="fadeOut">
+
         <div className="mx-2 px-6 text-left w-full md:flex">
           <Card className="flex p-2">
           <div style={{ color: '#e67e22' }}> <Icon size={64} icon={iosInfiniteOutline} /> </div>
@@ -65,8 +71,9 @@ export default class FoodDelivery extends React.Component{
               </Card.Text>
             </Card.Body>
           </Card>
-
         </div>
+
+        </ScrollAnimation>
       </section>
     )
   }

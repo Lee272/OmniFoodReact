@@ -5,6 +5,8 @@ import {
 //   Route,
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "animate.css/animate.min.css";
+// import "./styes.scss";
 import MainSection from './Components/MainSection';
 import FoodDelivery from './Components/FoodDelivery';
 import FoodGallery from './Components/FoodGallery';

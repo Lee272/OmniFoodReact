@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import '../style.css';
 
 
@@ -18,7 +19,11 @@ export default class OrderMenu extends React.Component {
         </div>
         {/* CARD CONTAINER */}
         <div className="sm:px-10 lg:flex lg:justify-center">
-          <div className="m-4 shadow-md md:flex lg:block">
+          <ScrollAnimation
+            initiallyVisible={true}
+            animateIn="pulse"
+            animateOut=""
+            className="m-4 shadow-md md:flex lg:block">
           {/* CARD TOP */}
             <div className="px-4 pt-4 bg-gray-200 rounded-lg md:w-full">
               <p className="mb-2 uppercase font-semibold text-xl">Premium</p>
@@ -40,7 +45,7 @@ export default class OrderMenu extends React.Component {
               <button className=" w-40 h-12 m-2 p-2 bg-orange-500 text-white border-2 rounded-full hover:bg-orange-600 font-semibold shadow-md hover:shadow-none">
                 Sign Up Now</button>
             </div>
-          </div>
+          </ScrollAnimation>
           {/* SECOND CARD */}
           <div className="m-4 shadow-md md:flex lg:block">
           {/* CARD TOP */}

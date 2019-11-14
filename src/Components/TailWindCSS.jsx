@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import Image from 'react-bootstrap/Image';
 import PhoneImg from '../img/app-iPhone.png';
 import GooglePlay from '../img/download-app-android.png';
@@ -22,9 +23,14 @@ export default class TailWindCSS extends React.Component{
         {/* MAIN BODY */}
         <div className="md:flex md:items-center md:justify-center">
           <div className="flex justify-center md:w-1/3">
+          <ScrollAnimation
+            
+            animateOnce={true}
+            animateIn="slideInUp">
             <Image className="w-48 my-4" id="slide"
               src={PhoneImg}
             />
+          </ScrollAnimation>
           </div>
           {/* INFORMATION POINTS - Container */}
           <div className="md:w-2/3">

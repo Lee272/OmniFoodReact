@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import { Icon } from 'react-icons-kit';
 import {androidPerson} from 'react-icons-kit/ionicons/androidPerson';
 import {androidStar} from 'react-icons-kit/ionicons/androidStar';
@@ -21,6 +22,9 @@ export default class Cities extends React.Component{
           <h1 className="P-underline p-4 m-0">We Are In These Cities</h1>
         </div>
         {/* Card - DIVOne */}
+        <ScrollAnimation
+          initiallyVisible={false}
+          animateIn="fadeIn">
         <div className="w-3/4 mx-auto md:flex md:w-full">
         {/* Card One */}
           <div className="m-2">
@@ -135,6 +139,7 @@ export default class Cities extends React.Component{
             </div>
           </div>
         </div>
+        </ScrollAnimation>
       </section>
     )
   }
