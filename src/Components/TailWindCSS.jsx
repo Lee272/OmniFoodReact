@@ -24,7 +24,7 @@ export default class TailWindCSS extends React.Component{
         <div className="md:flex md:items-center md:justify-center">
           <div className="flex justify-center md:w-1/3">
           <ScrollAnimation
-            
+
             animateOnce={true}
             animateIn="slideInUp">
             <Image className="w-48 my-4" id="slide"

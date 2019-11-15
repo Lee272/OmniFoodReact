@@ -1,5 +1,4 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
 import '../style.css';
 
 export default class ContactForm extends React.Component {
@@ -109,15 +108,6 @@ eventHandle = (event) => {
             </div>
           </div>
         </form>
-
-<ScrollAnimation
-  initiallyVisible={true}
->
-  <button className="text-white bg-black border-2 rounded-full">
-    HELLO
-  </button>
-</ScrollAnimation>
-
       </div>
     )
   }

@@ -3,6 +3,7 @@ import {
 //   BrowserRouter as Router,
 //   Switch,
 //   Route,
+//   Link,
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "animate.css/animate.min.css";
@@ -16,7 +17,7 @@ import Testimonials from './Components/Testimonials';
 import OrderMenu from './Components/OrderMenu';
 import ContactForm from './Components/ContactForm';
 import Footer from './Components/Footer';
-import AllGallery from './Components/AllGallery';
+// import AllGallery from './Components/AllGallery';
 
 export default function App() {
   return (
@@ -31,12 +32,12 @@ export default function App() {
       <OrderMenu />
       <ContactForm />
       <Footer />
-      <AllGallery />
+      {/* <AllGallery /> */}
     </React.Fragment>
-{/*     <Router>
+{/* <Router>
       <React.Fragment>
         <Switch>
-            <Route exact path="/" component={MainSection} />
+         <Route exact path="/" component={MainSection} />
         </Switch>
       </React.Fragment>
     </Router> */}
