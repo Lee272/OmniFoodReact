@@ -12,7 +12,9 @@ export default class Footer extends React.Component {
 
   sec = () => {
     document.getElementById('secret').className='secretOn'
+    document.getElementById('test').className='rotate-out-hor'
   }
+
 
 
   render (){
@@ -20,7 +22,7 @@ export default class Footer extends React.Component {
     return(
       <footer className="h-full bg-gray-800 text-xs">
       {/* LINKS */}
-        <div className="w-full text-center">
+        <div className="w-full text-center" id="test">
           <ul className="m-auto flex justify-center text-gray-500">
             <li className="p-2 hover:text-white">About Us</li>
             <li className="p-2 hover:text-white">Blog</li>
